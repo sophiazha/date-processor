@@ -1,10 +1,10 @@
 import os
-os.chdir("C:\\study\\voice")
+#os.chdir("C:\\study\\voice")
+os.chdir("D:\\VOICE")
 path = os.getcwd()
 print(path)
 from datetime import datetime
 from mutagen.mp3 import MP3
-
 def get_day_of_week(date_str):
     try:
         date = datetime.strptime(date_str, '%y%m%d')
